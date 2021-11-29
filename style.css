@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+header p{
+    font-weight: 300;
+    color: #E0E0E0;
+}
+.p-honda{
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+.honda-bg-color{
+    background-color: #264653;    
+}
+
+.honda-button{
+    background-color: #E76F51;
+    color: #fff;
+    padding: 10px 46px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.feature-bike-img{
+    width: 288px;
+    height: 242px;
+}
+.gray-scale{
+    filter: grayscale(100%);
+    /* mix-blend-mode: luminosity; */
+}
+
+.color-tomato{
+    color: #E76F51;
+}
+
+.client-img{
+    width: 149px;
+    height: 149px;
+}
+
+.fa-star {
+    color: #FFC014;
+}
+
+.img-fqa{
+    width: 400px;
+    height: 400px;
+   
+}
+
+.img-brand{
+    width: 100px;
+    height: 100px;
+}
+
+/* media query */
+
+
+
+@media screen and (max-width:667px){
+    h2{
+        font-size: 36px;
+    }
+    .img-fqa{
+        
+        width: 275px;
+        height: 270px;
+    }
+}
+@media screen and (min-width:668px){
+    header .px-md-4{
+        padding-left: 156px!important;
+        padding-right: 156px!important;
+    }
+}
